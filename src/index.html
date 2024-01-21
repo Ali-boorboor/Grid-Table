@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>Grid-Table</title>
+  </head>
+  <body class="body">
+    <p id="alert-modal">Please Enter The Numbers In The Right Form</p>
+    <h1 class="grid-table-title">Grid Table</h1>
+    <section class="grid-table-wrapper">
+      <form action="" class="grid-table-form">
+        <input
+          type="number"
+          id="row-input-reciever"
+          class="grid-table-form__input"
+          placeholder="Number of rows (10 Top)"
+        />
+        <input
+          type="number"
+          id="column-input-reciever"
+          class="grid-table-form__input"
+          placeholder="Number of columns (10 Top)"
+        />
+        <button type="submit" id="submit-btn" class="grid-table-form__submit-btn">Create</button>
+      </form>
+      <section id="grid-box"></section>
+    </section>
+  </body>
+  <script src="./assets/js/index.js"></script>
+</html>
